@@ -13,7 +13,7 @@ public class KalendarzChinski {
 
         try {
             do {
-                System.out.print("Wprowadz rok większy lub równy 1582: ");
+                System.out.print("Wprowadz rok większy niż 1582: ");
                 in = sc.nextInt();
             } while (!(in > 1582));
 
